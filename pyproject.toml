@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "duckdb-notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "duckdb_notebooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+duckdb = "^0.10.3"
+notebook = "^7.2.0"
+jupyterlab = "^4.2.1"
+jupysql = "^0.10.10"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+duckdb-engine = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
