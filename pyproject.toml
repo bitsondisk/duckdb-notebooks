@@ -15,6 +15,7 @@ jupysql = "^0.10.10"
 pandas = "^2.2.2"
 matplotlib = "^3.9.0"
 duckdb-engine = "^0.12.1"
+toml = "^0.10.2"
 
 
 [build-system]
